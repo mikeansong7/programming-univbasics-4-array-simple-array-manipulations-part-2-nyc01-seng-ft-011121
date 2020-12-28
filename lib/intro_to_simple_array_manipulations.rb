@@ -1,12 +1,11 @@
-require 'pry'
+
 
 def using_concat (arrays,arrayz)
   arrays.concat(arrayz)
 end
 
 def using_insert (ary, index)
-  ary.insert(index)
-  binding.pry
+  index.insert(ary)
  end
  
   def using_uniq(array)
