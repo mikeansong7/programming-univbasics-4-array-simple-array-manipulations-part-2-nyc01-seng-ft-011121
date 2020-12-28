@@ -5,7 +5,7 @@ def using_concat (arrays,arrayz)
 end
 
 def using_insert (ary, index)
-  ary.insert(ary, index)
+  ary.insert(4, index)
  end
  
   def using_uniq(array)
