@@ -6,4 +6,6 @@ def using_insert (arrays,arrayz)
   arrays.insert(arrayz)
 end
   
+  def using_uniq(array)
+    
   
