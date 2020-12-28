@@ -4,6 +4,7 @@ end
 
 def using_insert (ary, index)
   ary.insert(index)
+  binding.pry
  end
  
   def using_uniq(array)
